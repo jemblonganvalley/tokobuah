@@ -1,0 +1,15 @@
+###
+GET http://backendexample.sanbercloud.com/api/fruits
+Content-Type: application/json
+Accept: application/json
+
+###
+POST http://backendexample.sanbercloud.com/api/fruits
+Content-Type: application/json
+Accept: application/json
+
+{
+    "name" : "jambu klutuk",
+    "price" : "5000",
+    "weight" : 1000
+}
